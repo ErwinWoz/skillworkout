@@ -1,0 +1,154 @@
+body {
+    /* background-color: #83C400; */
+    background-image: linear-gradient(to right,#007E7E, #FFF);
+}
+
+/* overlay can be added in a later stage of this project if needed */
+/* .overlay { 
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(94,156,156,.3) !important;
+  z-index:1;
+
+} */
+
+.row-content{
+  width: 100%;
+}
+
+.header{
+  /* background-image: url('../images/two_men_running.jpg'); */
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+}
+
+nav {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+nav img {
+  height: 65px;
+  border-radius: 50%;
+  border: 2px solid #D20000;
+  /* box-shadow: 9px -3px 1px 0px #D20000; */
+  /* box-shadow: 8px -6px 9px 0px #FF4F4F;; */
+}
+
+/* this class can be added in a later stage on this project if needed */
+/* .nav-link {
+  color: #D20000 !important;
+  text-shadow: 5px -3px 8px #FF4F4F;
+} */
+
+.toggle-custom {
+  border-color: #D20000;
+  color: #D20000;
+  font-size: 23px;
+}
+
+.description{
+  position: absolute;
+  top: 30%;
+  margin: auto;
+  padding: 2em;
+  
+}
+.description h1{
+color:#F97300 ;
+}
+.description p{
+color:#666;
+font-size: 20px;
+width: 50%;
+line-height: 1.5;
+}
+.description button{
+border:1px  solid #F97300;
+background:#F97300;
+color:#fff;
+}
+
+.carousel {
+    /* any dimensions are fine, it can be responsive with max-width */
+    width: 100%;
+    height: 600px;
+  }
+  
+  .carousel-inner {
+    /* make sure your .items will get correct height */
+    height: 100%;
+  }
+  
+  .carousel-item { 
+    background-size: cover;
+    /* background-position: 50% 50%; */
+    /* width: 100%; */
+    height: 100%;
+    /* max-width: 1400px;
+    margin: auto; */
+  }
+
+  p {
+    font-size: 2.7vh;
+    color: #006767;
+  }
+  
+  footer img {
+    height: 65px;
+    border-radius: 50%;
+    border: 2px solid #D20000;
+  }
+
+  footer p {
+    color: #FFF;
+    font-size: 1.5vh;
+  }
+
+
+  .footer-row {
+    margin-right: 0px;
+    margin-left: 0px;
+  }
+
+
+  .img-responsive {
+        width: 100%;
+        height: 600px;
+        /* max-width: 1400px; */
+  }
+
+    /* Medium devices (tablets, less than 992px) */
+    @media (max-width: 991.98px) {
+        .carousel {
+            height: 540px;
+        }
+
+        .img-responsive {
+            height: 540px;
+        }
+    }
+
+    /* Small devices (landscape phones, less than 768px) */
+    @media (max-width: 767.98px) {
+        .carousel {
+            height: 430px;
+        }
+  
+        .img-responsive {
+            height: 430px;
+        }
+    }
+
+    /* Extra small devices (portrait phones, less than 576px) */
+    @media (max-width: 575.98px) {
+        .carousel {
+          height: 320px;
+        }
+      
+        .img-responsive {
+          height: 320px;
+        }
+    } 
