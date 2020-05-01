@@ -44,8 +44,8 @@ nav img {
 } */
 
 .toggle-custom {
-  border-color: #D20000;
-  color: #D20000;
+  /* border-color: #D20000; */
+  color: #FFF;
   font-size: 23px;
 }
 
