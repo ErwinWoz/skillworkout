@@ -120,7 +120,7 @@ color:#fff;
         /* max-width: 1400px; */
   }
 
-  /* Side banner style*/
+/***************************************** Side banner style ****************************************/
 @text-color: #1c1733;
 @bg-color: #ffd500;
 @button-background-color: #1c1733;
@@ -179,7 +179,6 @@ color:#fff;
   padding: 1em 0 0;
 }
 
-
 .exponea-side-banner:hover .exponea-side-banner-content-hover {
   opacity: 1;
   transform: translate3d(0, 0, 0);
@@ -221,6 +220,7 @@ color:#fff;
     opacity: 0;
   }
 }
+/***************************************** Media Query ****************************************/
 
     /* Medium devices (tablets, less than 992px) */
     @media (max-width: 991.98px) {
