@@ -49,6 +49,18 @@ nav img {
   font-size: 23px;
 }
 
+.button-custom {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  text-align: center;
+  font-size: 5em;
+  border-radius: 300px;
+  border: 2px solid #FFF;
+}
+
 .description{
   position: absolute;
   top: 30%;
@@ -231,6 +243,10 @@ color:#fff;
         .img-responsive {
             height: 540px;
         }
+
+        .button-custom {
+          font-size: 4em;
+        }
     }
 
     /* Small devices (landscape phones, less than 768px) */
@@ -252,5 +268,9 @@ color:#fff;
       
         .img-responsive {
           height: 320px;
+        }
+
+        .button-custom {
+          font-size: 2.3em;
         }
     } 
