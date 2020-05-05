@@ -61,6 +61,10 @@ nav img {
   border: 2px solid #FFF;
 }
 
+.donate-button {
+  background-color: #ffd500;
+}
+
 .description{
   position: absolute;
   top: 30%;
@@ -80,6 +84,12 @@ nav img {
 }
 .description button{
   color:#fff;
+  border-radius: 300px;
+  border: 2px solid #FFF;
+}
+
+.contact-sumbit-button {
+  color: #fff;
   border-radius: 300px;
   border: 2px solid #FFF;
 }
@@ -108,7 +118,12 @@ nav img {
     font-size: 2.7vh;
     color: #006767;
   }
-  
+
+  .paragraph-contact {
+    font-size: 1.2em;
+    color: #000;
+  }
+
   footer img {
     height: 65px;
     border-radius: 50%;
