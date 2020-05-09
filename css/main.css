@@ -34,8 +34,10 @@ nav img {
   height: 65px;
   border-radius: 50%;
   border: 2px solid #D20000;
-  /* box-shadow: 9px -3px 1px 0px #D20000; */
-  /* box-shadow: 8px -6px 9px 0px #FF4F4F;; */
+}
+
+.navbar-custom {
+  border-bottom: 2px solid #FFF;
 }
 
 /* this class can be added in a later stage on this project if needed */
@@ -158,12 +160,10 @@ nav img {
     font-size: 1.5vh;
   }
 
-
   .footer-row {
     margin-right: 0px;
     margin-left: 0px;
   }
-
 
   .img-responsive {
         width: 100%;
@@ -187,7 +187,6 @@ nav img {
   color: #1c1733;
   font-family: sans-serif;
   z-index: 10000;
-  /* pointer-events: none; */
   padding: 1.2em 3em 0 1.2em;
   min-height: 800px;
 }
