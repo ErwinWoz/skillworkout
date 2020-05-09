@@ -4,6 +4,8 @@ SkillWorkout - informative website presenting different types of exercises when 
 
 ## Getting Started
 
+This site lives on: [https://erwinwoz.github.io/skillworkout/]
+
 ### Prerequisites
 
 Any computer with Windows or MacOS and modern web browser (e.g Chrome, Firefox, Edge)
