@@ -1,10 +1,8 @@
 # Project Title
 
-SkillWorkout - informative website presenting doffeerent types of exercises when access to a gym or a training facility is limited
+SkillWorkout - informative website presenting different types of exercises when access to a gym or a training facility is limited
 
 ## Getting Started
-
-Coming soon
 
 ### Prerequisites
 
@@ -13,7 +11,7 @@ Any computer with Windows or MacOS and modern web browser (e.g Chrome, Firefox, 
 
 ### Installing
 
-Use githb repository to clone or fork project repository
+Use github repository to clone or fork project repository
 
 A fork is a copy of a repository that allows you to freely experiment with changes without affecting the original project. A forked repository differs from a clone in that a connection exists between your fork and the original repository itself. In this way, your fork acts as a bridge between the original repository and your personal copy where you can contribute back to the original project using Pull Requests.
 Forking a project is as easy as clicking the Fork button in the header of a repository. Once the process is complete, you'll be taken right to your the forked copy of the project so you can start collaborating!
@@ -42,12 +40,12 @@ HTML, Bootstrap 4
 
 ## Versioning
 
-This is version 1.0.
+This is version 1.0.\
 Version 2.0 (coming soon) 
 
 ## Authors
 
-**Erwin Wozniak**
+**Erwin Wozniak**\
 **eerwoz@gmail.com** 
 
 
